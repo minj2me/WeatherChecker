@@ -14,22 +14,12 @@ buildscript {
             'timber'              : '4.7.1',
             'gson'                : '2.8.5',
             'spark'               : '1.2.0',
-            'adapterDelegates'    : '3.1.0',
-            'currencyPicker'      : '1.2.1',
-            'lottie'              : '2.7.0', // don't change this unless migrated to android x
-            'materialdate'        : '3.6.4',
-            'pageindicator'       : '1.0.1',
-            'picaso'              : '2.71828',
-            'picasoTransformation': '2.2.1',
             'stetho'              : '1.5.0',
-            'coreKtx'             : '1.0.0',
             'junit'               : '4.12',
             'testRunner'          : '1.0.2',
             'espresso'            : '3.0.2',
             'kotlinter'           : '1.20.1',
             'bottomNav'           : '2.0.2',
-//            'firebaseCore'        : '16.0.6',
-//            'firebasePerf'        : '16.2.3',
             'crashlytics'         : '2.9.8',
             'leakcanary'          : '1.6.3'
     ]

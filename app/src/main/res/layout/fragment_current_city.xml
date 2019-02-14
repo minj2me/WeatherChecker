@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <!--<android.support.v4.widget.SwipeRefreshLayout-->
+        <!--android:id="@+id/swipeContainer"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="0dp"-->
+        <!--app:layout_constraintBottom_toBottomOf="parent"-->
+        <!--app:layout_constraintEnd_toEndOf="parent"-->
+        <!--app:layout_constraintStart_toStartOf="parent"-->
+        <!--app:layout_constraintTop_toBottomOf="@id/toolbar">-->
+
+        <!--<android.support.v7.widget.RecyclerView-->
+            <!--android:id="@+id/rvList"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:paddingTop="@dimen/generic4dp"-->
+            <!--app:layout_behavior="@string/appbar_scrolling_view_behavior"/>-->
+
+    <!--</android.support.v4.widget.SwipeRefreshLayout>-->
+
+    <TextView
+        android:padding="10dip"
+        android:textSize="20sp"
+        android:textColor="#999999"
+        android:id="@+id/tvText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+    />
+    <TextView
+        app:layout_constraintTop_toBottomOf="@id/tvText"
+        android:padding="10dip"
+        android:textSize="18sp"
+        android:textColor="#999999"
+        android:id="@+id/tvText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        />
+
+</android.support.constraint.ConstraintLayout>

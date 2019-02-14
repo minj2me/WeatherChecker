@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <TextView
+        android:padding="10dip"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:id="@+id/tvText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+    />
+    <TextView
+        app:layout_constraintTop_toBottomOf="@id/tvText"
+        android:padding="10dip"
+        android:textSize="18sp"
+        android:textColor="#999999"
+        android:id="@+id/tvText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        />
+
+</android.support.constraint.ConstraintLayout>

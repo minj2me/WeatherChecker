@@ -1,0 +1,24 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <!-- default color of ANY text (menu items, labels, etc. ) unless color attribute is overridden -->
+        <item name="android:textColorPrimary">@color/primaryTextColor</item>
+
+        <!-- color of the default background -->
+        <item name="android:windowBackground">@color/backgroundColor</item>
+    </style>
+
+    <style name="AppText" parent="Base.TextAppearance.AppCompat.Caption">
+        <item name="android:lineSpacingExtra">4sp</item>
+    </style>
+
+    <style name="AppText.Body" parent="AppText">
+        <item name="android:textColor">@color/primaryTextColor</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+</resources>
